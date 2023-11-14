@@ -1,0 +1,17 @@
+.opening{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.opening .title{
+    margin-left: 10px;
+    margin-top: 300px;
+}
+.goals h1{
+    text-align: center;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 15px;
+}
