@@ -1,3 +1,6 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Roboto+Flex:opsz,wght@8..144,300&display=swap');
+
 .page-title{
     text-align: center;
 }
@@ -28,6 +31,11 @@
     margin-bottom: 40px;
     text-align: left;
 }
+.text h1 {
+    font-size: 90px;
+    font-family: 'poppins';
+}
+
 
 .title{
     text-align: center;
@@ -44,12 +52,13 @@
 }
 
 .text-blue{
-    color:#0076f0;
+    color:#71C9CE;
 }
 
 .team-container{
-    background-color: #71C9CE;
+    background-color: transparent;
     padding: 50px;
+ box-shadow: 1px 1px 7px 0 #71C9CE;
 }
 
 .card-group{
@@ -122,98 +131,13 @@
 
 .card-socmed i:hover{
     color: #0076f0;
-}
-
-.faq{
-    width: 100%;
-}
-
-.answer p{
-    margin-top: 30px;
-    width: 100%;
-}
-
-.text1{
-    text-align: center;
-}
-
-.nav{
-    background-color: #ffffff;
-}
-
-.faq-container{
-    padding: 10px 20px;
-}
-
-section{
-    width: 80%;
-    margin: 50px auto 150px auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.title-section{
-    font-size: 3rem;
-    margin: 2rem 0rem;
-}
-
-.faq{
-    max-width: 700px;
-    margin-top: 2rem;
-    padding-bottom: 1 rem;
-    border-bottom: 2px solid #3a3a3a;
-    cursor:pointer;
-}
-
-
-.faq.active .answer{
-    max-height: 300px;
-    animation: fade 0.4s ease-in-out;
-}
-
-.faq.active svg{
-    transform:rotate(180deg);
-}
-
-svg{
-    transform: transform 0.5s ease-in;
-}
-.konten {
-
     
 }
-.content-2 {
-    padding: 20px;
-    margin: 20px;
-    font-family: 'roboto flex',sans-serif;
-    font-size: 15px;
-    background-color: #ffffff;
-    width: 950px;
-    height: 250px;
-    border-radius: 50px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    display: flexbox;
-    float: right;
-    margin-right: 50px;
-}
-.content-2 h1 {
-    text-transform: capitalize;
-    font-size: 40px;
-    color: #2F59A7;
-text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-font-family: 'poppins', 'sans-serif';
-font-size: 40px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
-}
- .foto {
-    width: 25em;
-    height:25em ;
-    float: left;
-    margin-left: 40px;
-background-color: #fff;
+.text1{
+    text-align: center;
+    font-family: 'poppins';
+    font-size: 30px;
+
 }
 @keyframes fade {
     from{

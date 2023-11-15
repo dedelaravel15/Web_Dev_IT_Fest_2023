@@ -1,0 +1,146 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #ffffff;
+    padding: 1em;
+
+}
+
+section {
+    padding: 3em;
+}
+
+.team-counselorr{
+    background-color: #ffffff;
+    padding: 1em;
+ box-shadow: 1px 1px 7px 0 #0076f0;
+ border-radius: 50px;
+ 
+}
+
+.card-group{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 1px;
+    margin: 80px 1px;
+}
+
+.card{
+    width: 280px;
+    margin:10px;
+    padding: 0;
+    border-radius: 5px;
+    box-shadow: 1px 1px 7px 0 #71C9CE;
+    background-color: #fff;
+    transition: all 0.3s ease-in;
+    border-radius: 50px;
+}
+
+.card:hover{
+    box-shadow: 1px 1px 7px 0 grey;
+    background-color: #71C9CE;
+}
+
+.card:hover .card-body h3, .card:hover .card-body p, .card:hover .card-socmed i{
+    color: #eee;
+}
+
+.card-img img{
+    width:120px;
+    height: 120px;
+    border-radius: 50%;
+    display: block;
+    margin: -30px auto 0px auto;
+}
+
+.card-body{
+    text-align: center;
+    padding: 0;
+}
+
+.card-body h3{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 20px 0 0 0;
+}
+
+.team-position{
+    font-size: 1.3rem;
+    font-weight: 200;
+    margin: 0;
+    color: #7a7a7a;
+}
+
+.text-card{
+    text-align: center;
+}
+
+
+.text1{
+    text-align: center;}
+    .team-container{
+        background-color: transparent;
+        padding: 50px;
+     box-shadow: 1px 1px 7px 0 #71C9CE;
+    }
+    
+    .content-group{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        padding: 1px;
+        margin: 80px 1px;
+    }
+    
+    .content{
+        width: 280px;
+        margin:10px;
+        padding: 0;
+        border-radius: 5px;
+        box-shadow: 1px 1px 7px 0 #71C9CE;
+        background-color: #fff;
+        transition: all 0.3s ease-in;
+    }
+    
+    .content:hover{
+        box-shadow: 1px 1px 7px 0 grey;
+        background-color: #71C9CE;
+    }
+    
+    .content:hover .card-body h3, .card:hover .card-body p, .card:hover .card-socmed i{
+        color: #eee;
+    }
+    
+    .content-img img{
+        width:120px;
+        height: 120px;
+        border-radius: 50%;
+        display: block;
+        margin: -30px auto 0px auto;
+    }
+    
+    .content-body{
+        text-align: center;
+        padding: 0;
+    }
+    
+    .card-body h3{
+        font-size: 1.5rem;
+        font-weight: 600;
+        margin: 20px 0 0 0;
+    }
+    
+    .team-position{
+        font-size: 1.3rem;
+        font-weight: 200;
+        margin: 0;
+        color: #7a7a7a;
+    }
+    
