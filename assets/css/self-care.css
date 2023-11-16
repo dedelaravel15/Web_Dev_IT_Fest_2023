@@ -28,20 +28,25 @@ section {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    padding: 1px;
+    padding: 2px;
     margin: 80px 1px;
 }
 
 .card{
-    width: 280px;
-    margin:10px;
+    width: 285px;
+    margin:15px;
     padding: 0;
     border-radius: 5px;
     box-shadow: 1px 1px 7px  #2F59A7;
     background-color: #fff;
     transition: all 0.3s ease-in;
     border-radius: 50px;
+    
 }
+
+
+
+
 
 .card:hover{
     box-shadow: 1px 1px 7px 0 grey;
@@ -63,6 +68,7 @@ section {
 .card-body{
     text-align: center;
     padding: 0;
+    
 }
 
 .card-body h3{
@@ -149,7 +155,7 @@ section {
     border-radius: 50px;
    }
     .online-consultation {
-        background: linear-gradient( #0d82d9, #38DDDF);
+        background-color: #007EA7;
 }
 /*cerita*/
 
