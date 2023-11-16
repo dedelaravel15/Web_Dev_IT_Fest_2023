@@ -28,7 +28,7 @@
     background-color: #ffffff;
     border-radius: 55px;
     margin-left: 20px;
-    box-shadow: 1px 1px 7px 0 #71C9CE
+    box-shadow: 1px 1px 7px 0 #0076f0;
   }
   
   .contact-left h5{
@@ -67,7 +67,9 @@
     cursor: pointer;
     display: block;
     margin: 0 auto;
-    font-size: 14px;
+    font-size: 15px;
+   
+    border-radius: 15px;
   }
   
   button:hover {
