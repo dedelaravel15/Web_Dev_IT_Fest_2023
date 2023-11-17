@@ -17,10 +17,9 @@ section {
 }
 
 .team-counselorr{
-    background-color: #ffffff;
+    background-color: #f2f2f2;
     padding: 1em;
- box-shadow: 1px 1px 7px 0 #0076f0;
- border-radius: 50px;
+ 
  
 }
 
@@ -30,6 +29,7 @@ section {
     justify-content: space-evenly;
     padding: 2px;
     margin: 80px 1px;
+    
 }
 
 .card{
@@ -37,16 +37,12 @@ section {
     margin:15px;
     padding: 0;
     border-radius: 5px;
-    box-shadow: 1px 1px 7px  #2F59A7;
+    box-shadow: 1px 1px 7px  #949598;
     background-color: #fff;
     transition: all 0.3s ease-in;
-    border-radius: 50px;
+    border-radius: 10px;
     
 }
-
-
-
-
 
 .card:hover{
     box-shadow: 1px 1px 7px 0 grey;
@@ -78,7 +74,7 @@ section {
 }
 
 .team-position{
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     font-weight: 200;
     margin: 0;
     color: #7a7a7a;
@@ -110,8 +106,8 @@ section {
         margin:10px;
         padding: 0;
         border-radius: 5px;
-        box-shadow: 1px 1px 7px 0 #2F59A7;
-        background-color: #fff;
+        box-shadow: 1px 1px 7px 0  grey;
+        background-color: #ffffffbd;
         transition: all 0.3s ease-in;
     }
     
@@ -147,7 +143,7 @@ section {
         font-size: 1.3rem;
         font-weight: 200;
         margin: 0;
-        color: #7a7a7a;
+        color: #000000;
     }
    .online-consultation img {
     width: 600px;
@@ -155,7 +151,7 @@ section {
     border-radius: 50px;
    }
     .online-consultation {
-        background-color: #007EA7;
+        background-color: #2F59A7
 }
 /*cerita*/
 
@@ -256,9 +252,30 @@ section {
     border-radius:40px;
     box-shadow: #0076f0;
   }
+ 
+.online-badan img {
+  width: 600px;
+  height: 500px;
+  border-radius: 50px;
+ }
+  .online-badan{
+      background-color: #2F59A7;
+      padding: 0;
+      margin: 0;
+}
+
+#result {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #333; }
    /* Tampilan tablet */
    @media screen and (max-width: 768px) {
     .online-consultation img {
+      width: 450px;
+      height: 450px;
+      border-radius: 0;
+    }
+    .online-badan img {
       width: 450px;
       height: 450px;
       border-radius: 0;
