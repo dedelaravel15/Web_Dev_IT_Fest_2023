@@ -1,17 +1,72 @@
-.opening{
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,500;1,400;1,500&display=swap');
+
+.container{
     display: flex;
     justify-content: space-between;
-    margin-top: 50px;
+    margin: 0px 110px;
 }
-.opening .title{
-    margin-left: 10px;
-    margin-top: 300px;
+.container h1{
+    font-size:70px;
+    color: #2F59A7;
 }
-.goals h1{
+.container span{
+    position: absolute;
+    top: 330px;
+    font-size: 15px;
+    font-weight: 100;
+}
+.container .btn-about{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #2F59A7;
+    width: 100px;
+    color:white;
+}
+.jumbroton h1{
     text-align: center;
 }
-.cards{
+.jumbroton .goals{
     display: flex;
     justify-content: space-between;
-    margin: 0px 15px;
+    margin-left: 110px;
+    margin-right: 110px;
+    margin-top: 100px;
+    
+}
+.thumb-nail{
+    background-color: #2F59A7;
+    color: white;
+    padding: 10px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    margin: 0 10px;
+}
+.thumbs{
+    display: flex;
+}
+.thumbs .icon-thumbs{
+    border-radius: 50%;
+    position: absolute;
+    top: 590px;
+    right: 1220px;    
+}
+
+.thumbs .icon-thumbs2{
+    border-radius: 50%;
+    position: absolute;
+    top: 590px;
+    right: 950px;
+}
+.thumbs .icon-thumbs3{
+    border-radius: 50%;
+    position: absolute;
+    top: 590px;
+    right: 680px;
+}
+.thumbs .icon-thumbs4{
+    border-radius: 50%;
+    position: absolute;
+    top: 590px;
+    right: 380px;
 }
